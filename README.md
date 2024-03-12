@@ -15,6 +15,8 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
+- [Top 10 GitHub Repositories Every Developer Should Bookmark in 2024](https://dev.to/shanu-kumawat/top-10-github-repositories-every-developer-should-bookmark-in-2024-l6a)
+- [28 Years Strong: Java&#39;s Journey](https://dev.to/shanu-kumawat/28-years-strong-javas-journey-41e7)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
