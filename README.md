@@ -48,7 +48,7 @@
 
 ###
 
-<p><img align="right" src="https://github-readme-stats.vercel.app/api/top-langs?username=shanu-kumawat&show_icons=true&theme=dark&cache_seconds=1800&locale=en&layout=compact" alt="shanu-kumawat" /></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=shanu-kumawat&show_icons=true&theme=dark&cache_seconds=1800&locale=en&layout=compact" alt="shanu-kumawat" /></p>
 
-<p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=shanu-kumawat&" alt="shanu-kumawat" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shanu-kumawat&" alt="shanu-kumawat" /></p>
 
