@@ -16,7 +16,7 @@
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
 - [Getting Started with llama.cpp on Linux! &lpar;Updated&rpar;](https://dev.to/shanu-kumawat/getting-started-with-lammacpp-on-arch-linux-58nc)
-- [Top 10 GitHub Repositories Every Developer Should Bookmark in 2024](https://dev.to/shanu-kumawat/top-10-github-repositories-every-developer-should-bookmark-in-2024-l6a)
+- [Ten Must Repos For A Dev !!](https://dev.to/shanu-kumawat/top-10-github-repositories-every-developer-should-bookmark-in-2024-l6a)
 - [28 Years Strong: Java&#39;s Journey](https://dev.to/shanu-kumawat/28-years-strong-javas-journey-41e7)
 <!-- BLOG-POST-LIST:END -->
 
