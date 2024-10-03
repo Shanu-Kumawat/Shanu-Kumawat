@@ -15,10 +15,10 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
+- [Cloudflare’s Latest Update: A Builder’s Paradise](https://dev.to/shanu-kumawat/cloudflares-latest-update-a-builders-paradise-56ml)
 - [Getting Started with pyenv: A Must-Have Tool for Python Development](https://dev.to/shanu-kumawat/getting-started-with-pyenv-a-must-have-tool-for-python-development-1d3j)
 - [Poetry Beginner&#39;s Guide, Simplifying Python Dependency Management on Linux](https://dev.to/shanu-kumawat/poetry-simplifying-python-dependency-management-on-linux-3pfb)
 - [Boost Your Linux Productivity: Remapping Useless Keys with Kanata](https://dev.to/shanu-kumawat/boost-your-linux-productivity-remapping-useless-keys-with-kanata-3ih5)
-- [Getting Started with llama.cpp on Linux! &lpar;Updated&rpar;](https://dev.to/shanu-kumawat/getting-started-with-lammacpp-on-arch-linux-58nc)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
