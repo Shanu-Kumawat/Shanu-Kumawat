@@ -15,10 +15,10 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
-- [How to Work with State in Flutter](https://dev.to/shanu-kumawat/how-to-work-with-state-in-flutter-21l0)
-- [Unlocking the Power of Elixir Phoenix and Rust: A Match Made for High-Performance Web Applications](https://dev.to/shanu-kumawat/unlocking-the-power-of-elixir-phoenix-and-rust-a-match-made-for-high-performance-web-applications-58gf)
-- [How to Set Up Kanata on NixOS: A Step-by-Step Guide](https://dev.to/shanu-kumawat/how-to-set-up-kanata-on-nixos-a-step-by-step-guide-1jkc)
-- [Easy way to setup Flutter Development Environment on NixOS without Flakes or dev-shell](https://dev.to/shanu-kumawat/setting-up-flutter-development-environment-on-nix-6pk)
+- [How Do You Build Scalable Apps in Flutter? 🚀](https://dev.to/shanu-kumawat/how-do-you-build-scalable-apps-in-flutter-3jg3)
+- [How to Work with State in Flutter 🛠️📱](https://dev.to/shanu-kumawat/how-to-work-with-state-in-flutter-21l0)
+- [Unlocking the Power of Elixir Phoenix and Rust: A Match Made for High-Performance Web Applications ⚡🔧](https://dev.to/shanu-kumawat/unlocking-the-power-of-elixir-phoenix-and-rust-a-match-made-for-high-performance-web-applications-58gf)
+- [How to Set Up Kanata on NixOS: A Step-by-Step Guide 🖥️](https://dev.to/shanu-kumawat/how-to-set-up-kanata-on-nixos-a-step-by-step-guide-1jkc)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
