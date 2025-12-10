@@ -68,7 +68,7 @@ Multi-model stock prediction platform implementing LSTM, Random Forest, and Prop
 </td>
 <td width="50%">
 
-### 🪟 [Quickshell Overview ⭐ 55+](https://github.com/Shanu-Kumawat/quickshell-overview)
+### 🪟 [Quickshell Overview ⭐ 70+](https://github.com/Shanu-Kumawat/quickshell-overview)
 **Hyprland Workspace Manager**
 
 Extracted and refactored workspace overview widget from illogical-impulse into standalone module. Demonstrates modular architecture and IPC communication.
@@ -94,30 +94,65 @@ Extracted and refactored workspace overview widget from illogical-impulse into s
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=for-the-badge&logo=elixir&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
-### Frameworks & Tools
+### Frameworks
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Phoenix](https://img.shields.io/badge/Phoenix-FD4F00?style=for-the-badge&logo=phoenixframework&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
-### DevOps & Systems
+### Cloud & Backend Services
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+
+### DevOps & Infrastructure
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+### Systems & Tools
 ![Arch](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
+![Nix](https://img.shields.io/badge/Nix-5277C3?style=for-the-badge&logo=nixos&logoColor=white)
 ![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-### Academic & Computational
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
-![Continuum Mechanics](https://img.shields.io/badge/Continuum_Mechanics-4B275F?style=for-the-badge&logoColor=white)
-![Aerodynamics](https://img.shields.io/badge/Aerodynamics-0175C2?style=for-the-badge&logoColor=white)
-![FEM](https://img.shields.io/badge/Finite_Element_Methods-009688?style=for-the-badge&logoColor=white)
-![CFD](https://img.shields.io/badge/Computational_Fluid_Dynamics-58A6FF?style=for-the-badge&logoColor=white)
-![Numerical Modeling](https://img.shields.io/badge/Numerical_Modeling-FF6F00?style=for-the-badge&logoColor=white)
+### Databases
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+
+### Modeling, Simulation & Numerical Computing
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+- **Mathematical Modeling**  
+  *ODEs, PDEs, continuum mechanics, fluid/thermal models, dimensional analysis, system modeling*
+
+- **Numerical Methods**  
+  *Discretization schemes (FDM/FVM/FEM), time integration methods, nonlinear solvers, eigenvalue & stability analysis, interpolation, numerical quadrature*
+
+- **Numerical Computing**  
+  *MATLAB, scientific computing workflows, vectorization, numerical linear algebra (LU, QR, SVD, iterative solvers), matrix computations, solver implementation*
+
+</td>
+<td width="50%" valign="top">
+
+- **Numerical Simulation & Modeling**  
+  *FEM, CFD, meshing techniques, multiphysics coupling, convergence & error analysis, verification/validation*
+
+- **Optimization Algorithms**  
+  *Convex & nonlinear optimization, gradient-based optimization, constrained optimization, sensitivity analysis*
+
+- **Statistical Analysis & Data Methods**  
+  *Regression, hypothesis testing, uncertainty quantification, data fitting, statistical modeling*
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -126,15 +161,15 @@ Extracted and refactored workspace overview widget from illogical-impulse into s
 <table>
   <tr>
     <td rowspan="3" width="55%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shanu-kumawat&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=10" width="100%" />
+      <img src="https://github-readme-stats-sepia-kappa-13.vercel.app/api/top-langs/?username=Shanu-Kumawat&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=10" width="100%" />
     </td>
     <td width="45%">
-      <img src="https://github-readme-stats.vercel.app/api?username=shanu-kumawat&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" width="100%"/>
+      <img src="https://github-readme-stats-sepia-kappa-13.vercel.app/api?username=Shanu-Kumawat&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" width="100%"/>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://github-readme-streak-stats.herokuapp.com?user=shanu-kumawat&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="100%"/>
+      <img src="https://github-readme-streak-stats.herokuapp.com?user=Shanu-Kumawat&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="100%"/>
     </td>
   </tr>
 </table>
