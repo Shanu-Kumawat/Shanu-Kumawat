@@ -161,15 +161,15 @@ Extracted and refactored workspace overview widget from illogical-impulse into s
 <table>
   <tr>
     <td rowspan="3" width="55%">
-      <img src="https://github-readme-stats-sepia-kappa-13.vercel.app/api/top-langs/?username=Shanu-Kumawat&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=10" width="100%" />
+      <img src="https://github-readme-stats-git-master-rickstaa.vercel.app/api/top-langs/?username=Shanu-Kumawat&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=10" width="100%" />
     </td>
     <td width="45%">
-      <img src="https://github-readme-stats-sepia-kappa-13.vercel.app/api?username=Shanu-Kumawat&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" width="100%"/>
+      <img src="https://github-readme-stats-git-master-rickstaa.vercel.app/api?username=Shanu-Kumawat&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" width="100%"/>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://github-readme-streak-stats.herokuapp.com?user=Shanu-Kumawat&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="100%"/>
+      <img src="https://streak-stats.demolab.com?user=Shanu-Kumawat&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="100%"/>
     </td>
   </tr>
 </table>
