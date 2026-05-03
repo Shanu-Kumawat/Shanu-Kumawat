@@ -2,14 +2,13 @@
   
 # 👋 Hey, I'm Shanu Kumawat
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=600&lines=Flutter+Developer+%7C+System+Architect;Building+Production-Ready+Mobile+Apps;Exploring+Backend+%26+DevOps;Linux+Enthusiast+%7C+Arch+Daily+Driver)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=600&lines=Systems+Software+Engineer;Hacking+the+Linux+Desktop;Building+Dart+SDK+Tools;Learning+Rust+%26+DSA)](https://git.io/typing-svg)
 
-**B.Tech in Engineering & Computational Mechanics** • **MNNIT Allahabad** • **Third Year**
+**Building tools close to the metal.**
 
-<a href="https://linkedin.com/in/shanukumawat"><img src="https://img.shields.io/badge/LinkedIn-d5d5d5?style=for-the-badge&logo=linkedin&logoColor=0A0209" alt="LinkedIn profile of Shanu Kumawat" /></a>
-<a href="https://reddit.com/user/Cursed_Semicolon9357"><img src="https://img.shields.io/badge/Reddit-d5d5d5?style=for-the-badge&logo=reddit&logoColor=0A0209" alt="Reddit profile with username Cursed_Semicolon9357" /></a>
-<a href="https://x.com/Shanu_Kumawat01"><img src="https://img.shields.io/badge/Twitter-d5d5d5?style=for-the-badge&logo=x&logoColor=0A0209" alt="Twitter profile of Shanu Kumawat" /></a>
-<a href="https://dev.to/shanu-kumawat"><img src="https://img.shields.io/badge/dev.to-d5d5d5?style=for-the-badge&logo=devdotto&logoColor=0A0209" alt="Dev.to profile of Shanu Kumawat" /></a>
+<a href="https://linkedin.com/in/shanukumawat"><img src="https://img.shields.io/badge/LinkedIn-d5d5d5?style=for-the-badge&logo=linkedin&logoColor=0A0209" alt="LinkedIn profile" /></a>
+<a href="https://x.com/Shanu_Kumawat01"><img src="https://img.shields.io/badge/Twitter-d5d5d5?style=for-the-badge&logo=x&logoColor=0A0209" alt="Twitter profile" /></a>
+<a href="mailto:hello@shanukumawat.com"><img src="https://img.shields.io/badge/Email-d5d5d5?style=for-the-badge&logo=gmail&logoColor=0A0209" alt="Email me" /></a>
 
 </div>
 
@@ -17,23 +16,73 @@
 
 ## 🚀 About Me
 
-I'm a **Flutter developer** who's shipped **6 production-ready applications**, with a background in computational mechanics that gives me unique insights into system behavior and performance optimization. I build scalable mobile apps while exploring backend technologies (FastAPI, Elixir Phoenix), DevOps practices (Docker, Nginx), and system design.
+Hey! 👋 I'm Shanu.
 
-My journey from **computational fluid dynamics and finite element methods** to software development means I approach problems with both analytical rigor and practical engineering mindset. Currently seeking **internship opportunities** to work on production systems with experienced engineering teams.
+I'm currently a B.Tech student at MNNIT Allahabad. My actual major is Computational Mechanics, but to be honest, I spend almost all my time writing code and hanging out in open-source communities.
+
+Right now, my free time mostly goes into hacking on the Linux desktop and poking at language compilers. I created and currently maintain the **[Quickshell Overview](https://github.com/Shanu-Kumawat/quickshell-overview)** module for Hyprland (which just hit 375+ stars! ⭐), and I recently started contributing patches to the core Google Dart SDK.
+
+I'm definitely most interested in lower-level programming. These days, I'm mostly writing C++, Dart, and Rust. Whether it's dissecting Wayland protocols, patching Virtual Machines, or messing with native memory, I just really enjoy figuring out how things actually work under the hood.
 
 ```yaml
 current_focus:
-  learning: "Data Structures & Algorithms in Java"
-  building: "Scalable mobile and backend systems"
-  exploring: "System design patterns and deployment strategies"
+  learning: "Data Structures & Algorithms, Rust"
+  building: "RentKhata (Offline-first property management app for Indian landlords)"
+  exploring: "Dart VM internals, OS memory APIs, and Debug Adapters"
 ```
 
 ---
 
-## 🎯 Featured Projects
+## 🏆 Work I'm Proud Of
+
+Getting code into massive enterprise compilers is intimidating, but it's where I learn the most. Here are some of my recent open-source contributions to the core **Google Dart SDK**:
+
+*   **[Merged CL: Check @Native on extension members](https://dart-review.googlesource.com/c/sdk/+/482160)** - Aligned analyzer diagnostics with CFE behavior for extension-like members while preserving pointer-receiver restrictions.
+*   **[Issue #62716: Analyzer crashes on @Native in extension method](https://github.com/dart-lang/sdk/issues/62716)** - Discovered and documented an analyzer crash deep in `ExtensionElementImpl` while working on FFI bindings.
+
+---
+
+## 🐛 The Weirdest Bug I've Fought Recently
+
+I think you can tell a lot about an engineer by the bugs they fight. Recently, while patching the Dart VM for my Native Memory Inspector, my memory reads kept silently failing on Windows despite working perfectly on Linux. 
+
+After digging deep into the C++ runtime source, I discovered it was an **LLP64 truncation bug**. On Windows, an `unsigned long` is only 32 bits, meaning my 64-bit memory addresses were being silently truncated when passed through the RPC parser. Switching it to `UInt64Parameter` fixed the crash entirely. It was a brutal debugging session, but it perfectly sums up why I love low-level systems programming.
+
+---
+
+## 🎯 Featured Work
 
 <table>
 <tr>
+<td width="50%">
+
+### 🏢 [RentKhata](https://github.com/Shanu-Kumawat/RentKhata)
+**Offline-First Property Management**
+
+An offline-first app designed specifically for Indian landlords. Helps track rent, calculates electricity bills from meter readings, manages tenants, and automatically generates and sends PDF receipts over WhatsApp. Works 100% without internet.
+
+**Tech:** Flutter • Local Storage • PDF Generation
+</td>
+<td width="50%">
+
+### 🔍 [Native Memory Inspector](https://github.com/Shanu-Kumawat/native_memory_inspector)
+**Dart VM Memory Debugger**
+
+A standalone Flutter desktop app and Dart VM patchset that uses OS-level APIs (`process_vm_readv` / `ReadProcessMemory`) to safely read, decode, and visualize raw C-struct memory without crashing the target isolate.
+
+**Tech:** C++ • Dart VM • Flutter Desktop • FFI
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🪟 [Quickshell Overview ⭐ 375+](https://github.com/Shanu-Kumawat/quickshell-overview)
+**Hyprland Workspace Manager**
+
+A highly popular standalone workspace overview module for Hyprland. Features live application window previews, drag-and-drop workspace support, and modular system keybind integrations.
+
+**Tech:** Quickshell • Hyprland Protocol • QML
+</td>
 <td width="50%">
 
 ### 🔦 [Beacon](https://github.com/Shanu-Kumawat/Beacon)
@@ -41,122 +90,29 @@ current_focus:
 
 AR-powered navigation app combining real-time object detection with voice guidance. Optimized computer vision models for mobile performance while maintaining safety-critical accuracy.
 
-**Tech:** Flutter • Firebase • AR Kit • OpenStreetMap 
-
-</td>
-<td width="50%">
-
-### 🌾 AgriSage
-**AI Agricultural Advisory System**
-
-ML-powered crop recommendation system using TensorFlow Lite for on-device inference. Architected for rural connectivity constraints with weather forecasting and marketplace features.
-
-**Tech:** Flutter • TensorFlow Lite • GoogleMapsEngine • FastAPI
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 📈 [TradePulse](https://github.com/Shanu-Kumawat/TradePulse)
-**Stock Analysis & Prediction**
-
-Multi-model stock prediction platform implementing LSTM, Random Forest, and Prophet algorithms with interactive visualization for performance comparison.
-
-**Tech:** Python • TensorFlow • Pandas • Matplotlib • Streamlit
-
-</td>
-<td width="50%">
-
-### 🪟 [Quickshell Overview ⭐ 70+](https://github.com/Shanu-Kumawat/quickshell-overview)
-**Hyprland Workspace Manager**
-
-Extracted and refactored workspace overview widget from illogical-impulse into standalone module. Demonstrates modular architecture and IPC communication.
-
-**Tech:** Quickshell • Hyprland Protocol • QML
-
+**Tech:** Flutter • Firebase • AR Kit
 </td>
 </tr>
 </table>
 
-<div align="center">
-  
-**[📂 View All Projects →](https://github.com/Shanu-Kumawat?tab=repositories)**
-
-</div>
-
 ---
 
-## 🛠️ Tech Stack
+<details>
+<summary><b>🛠️ Tech Stack & GitHub Stats</b></summary>
+<br>
 
 ### Languages
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=for-the-badge&logo=elixir&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-### Frameworks
+### Frameworks & Systems
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Phoenix](https://img.shields.io/badge/Phoenix-FD4F00?style=for-the-badge&logo=phoenixframework&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-
-### Cloud & Backend Services
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-
-### DevOps & Infrastructure
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-
-### Systems & Tools
 ![Arch](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
-![Nix](https://img.shields.io/badge/Nix-5277C3?style=for-the-badge&logo=nixos&logoColor=white)
-![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-### Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-
-### Modeling, Simulation & Numerical Computing
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-- **Mathematical Modeling**  
-  *ODEs, PDEs, continuum mechanics, fluid/thermal models, dimensional analysis, system modeling*
-
-- **Numerical Methods**  
-  *Discretization schemes (FDM/FVM/FEM), time integration methods, nonlinear solvers, eigenvalue & stability analysis, interpolation, numerical quadrature*
-
-- **Numerical Computing**  
-  *MATLAB, scientific computing workflows, vectorization, numerical linear algebra (LU, QR, SVD, iterative solvers), matrix computations, solver implementation*
-
-</td>
-<td width="50%" valign="top">
-
-- **Numerical Simulation & Modeling**  
-  *FEM, CFD, meshing techniques, multiphysics coupling, convergence & error analysis, verification/validation*
-
-- **Optimization Algorithms**  
-  *Convex & nonlinear optimization, gradient-based optimization, constrained optimization, sensitivity analysis*
-
-- **Statistical Analysis & Data Methods**  
-  *Regression, hypothesis testing, uncertainty quantification, data fitting, statistical modeling*
-
-</td>
-</tr>
-</table>
-
----
-
-## 📊 GitHub Stats
+### 📊 GitHub Stats
 
 <table>
   <tr>
@@ -174,40 +130,25 @@ Extracted and refactored workspace overview widget from illogical-impulse into s
   </tr>
 </table>
 
----
-
-## ✍️ Latest Blog Posts
-
-- [Creating Custom, Reusable Animations in Flutter That Don&#39;t Kill Performance](https://dev.to/shanu-kumawat/creating-custom-reusable-animations-in-flutter-that-dont-kill-performance-3c7)
-- [How Do You Build Scalable Apps in Flutter? 🚀](https://dev.to/shanu-kumawat/how-do-you-build-scalable-apps-in-flutter-3jg3)
-- [How to Work with State in Flutter 🛠️📱](https://dev.to/shanu-kumawat/how-to-work-with-state-in-flutter-21l0)
-- [Unlocking the Power of Elixir Phoenix and Rust: A Match Made for High-Performance Web Applications ⚡🔧](https://dev.to/shanu-kumawat/unlocking-the-power-of-elixir-phoenix-and-rust-a-match-made-for-high-performance-web-applications-58gf)
-
-<div align="center">
-
-**[📚 Read More Articles →](https://dev.to/shanu-kumawat)**
-
-</div>
+</details>
 
 ---
 
 ## 🤝 Let's Connect
 
-I'm actively seeking **internship opportunities** in mobile development, backend systems, or full-stack roles where I can work with production systems and experienced engineering teams.
+I'm always down to chat. If you ever want to connect, here are a few things you can ask me about to get the conversation started:
+
+*   How to get started with contributing to massive language compilers (like the Dart SDK).
+*   The absolute nightmare (and joy) of configuring Wayland compositors and Linux rices.
+*   Why you should definitely *not* use `unsigned long` for memory addresses on Windows.
+*   Anything related to low-level C++ or Rust.
+
+Whether you have a tough debugging problem, want to collaborate, or just want to say hi, feel free to shoot me an email!
 
 <div align="center">
 
-<a href="https://linkedin.com/in/shanukumawat"><img src="https://img.shields.io/badge/LinkedIn-d5d5d5?style=for-the-badge&logo=linkedin&logoColor=0A0209" alt="LinkedIn profile of Shanu Kumawat" /></a>
-<a href="https://reddit.com/user/Cursed_Semicolon9357"><img src="https://img.shields.io/badge/Reddit-d5d5d5?style=for-the-badge&logo=reddit&logoColor=0A0209" alt="Reddit profile with username Cursed_Semicolon9357" /></a>
-<a href="https://x.com/Shanu_Kumawat01"><img src="https://img.shields.io/badge/Twitter-d5d5d5?style=for-the-badge&logo=x&logoColor=0A0209" alt="Twitter profile of Shanu Kumawat" /></a>
-<a href="https://dev.to/shanu-kumawat"><img src="https://img.shields.io/badge/dev.to-d5d5d5?style=for-the-badge&logo=devdotto&logoColor=0A0209" alt="Dev.to profile of Shanu Kumawat" /></a>
-
-</div>
-
----
-
-<div align="center">
-
-**⭐️ From [Shanu-Kumawat](https://github.com/Shanu-Kumawat) | Building one commit at a time**
+<a href="https://linkedin.com/in/shanukumawat"><img src="https://img.shields.io/badge/LinkedIn-d5d5d5?style=for-the-badge&logo=linkedin&logoColor=0A0209" alt="LinkedIn profile" /></a>
+<a href="https://x.com/Shanu_Kumawat01"><img src="https://img.shields.io/badge/Twitter-d5d5d5?style=for-the-badge&logo=x&logoColor=0A0209" alt="Twitter profile" /></a>
+<a href="mailto:hello@shanukumawat.com"><img src="https://img.shields.io/badge/Email-d5d5d5?style=for-the-badge&logo=gmail&logoColor=0A0209" alt="Email me" /></a>
 
 </div>
