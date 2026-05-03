@@ -97,8 +97,10 @@ AR-powered navigation app combining real-time object detection with voice guidan
 
 ---
 
+## 🛠️ Tech Stack & GitHub Stats
+
 <details>
-<summary><b>🛠️ Tech Stack & GitHub Stats</b></summary>
+<summary><b>Click to expand</b></summary>
 <br>
 
 ### Languages
