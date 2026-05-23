@@ -7,7 +7,7 @@
 **Building tools close to the metal.**
 
 <a href="https://linkedin.com/in/shanukumawat"><img src="https://img.shields.io/badge/LinkedIn-d5d5d5?style=for-the-badge&logo=linkedin&logoColor=0A0209" alt="LinkedIn profile" /></a>
-<a href="https://x.com/Shanu_Kumawat01"><img src="https://img.shields.io/badge/Twitter-d5d5d5?style=for-the-badge&logo=x&logoColor=0A0209" alt="Twitter profile" /></a>
+<a href="https://x.com/shanu_builds"><img src="https://img.shields.io/badge/Twitter-d5d5d5?style=for-the-badge&logo=x&logoColor=0A0209" alt="Twitter profile" /></a>
 <a href="mailto:hello@shanukumawat.com"><img src="https://img.shields.io/badge/Email-d5d5d5?style=for-the-badge&logo=gmail&logoColor=0A0209" alt="Email me" /></a>
 
 </div>
@@ -150,7 +150,7 @@ Whether you have a tough debugging problem, want to collaborate, or just want to
 <div align="center">
 
 <a href="https://linkedin.com/in/shanukumawat"><img src="https://img.shields.io/badge/LinkedIn-d5d5d5?style=for-the-badge&logo=linkedin&logoColor=0A0209" alt="LinkedIn profile" /></a>
-<a href="https://x.com/Shanu_Kumawat01"><img src="https://img.shields.io/badge/Twitter-d5d5d5?style=for-the-badge&logo=x&logoColor=0A0209" alt="Twitter profile" /></a>
+<a href="https://x.com/shanu_builds"><img src="https://img.shields.io/badge/Twitter-d5d5d5?style=for-the-badge&logo=x&logoColor=0A0209" alt="Twitter profile" /></a>
 <a href="mailto:hello@shanukumawat.com"><img src="https://img.shields.io/badge/Email-d5d5d5?style=for-the-badge&logo=gmail&logoColor=0A0209" alt="Email me" /></a>
 
 </div>
