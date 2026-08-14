@@ -2,7 +2,7 @@
 
 # Shanu Kumawat
 
-Dart SDK Contributor | Flutter Developer | Building Tools and Apps in the Dart Ecosystem
+Flutter & Dart Engineer | Dart SDK Contributor | Building Tools and Apps in the Dart Ecosystem
 
 <a href="https://linkedin.com/in/shanukumawat"><img src="https://img.shields.io/badge/LinkedIn-d5d5d5?style=for-the-badge&logo=linkedin&logoColor=0A0209" alt="LinkedIn profile" /></a>
 <a href="https://x.com/shanu_builds"><img src="https://img.shields.io/badge/Twitter-d5d5d5?style=for-the-badge&logo=x&logoColor=0A0209" alt="Twitter profile" /></a>
@@ -14,7 +14,7 @@ Dart SDK Contributor | Flutter Developer | Building Tools and Apps in the Dart E
 
 ## About
 
-I build tools and apps in the Dart/Flutter ecosystem -- from compiler patches to desktop tooling to mobile applications. B.Tech student at MNNIT Allahabad (Computational Mechanics, 2023 - 2027). Active contributor to the Dart SDK.
+I build tools and apps across the Dart/Flutter ecosystem -- mobile applications, compiler patches, and native tooling. Merged contributor to the Dart SDK (analyzer/FFI) and creator of the Native Memory Inspector (FFI memory reading on Windows & Linux). B.Tech student at MNNIT Allahabad (Computational Mechanics, 2023–2027).
 
 ---
 
